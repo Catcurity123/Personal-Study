@@ -1,0 +1,8 @@
+C:\Users\LUAN\Desktop\Git_Repos\Personal-Study\C# and MVC design pattern\1. Overview of C#\Overview of C_Sharp\bin\Debug\Overview of C_Sharp.exe.config
+C:\Users\LUAN\Desktop\Git_Repos\Personal-Study\C# and MVC design pattern\1. Overview of C#\Overview of C_Sharp\bin\Debug\Overview of C_Sharp.exe
+C:\Users\LUAN\Desktop\Git_Repos\Personal-Study\C# and MVC design pattern\1. Overview of C#\Overview of C_Sharp\bin\Debug\Overview of C_Sharp.pdb
+C:\Users\LUAN\Desktop\Git_Repos\Personal-Study\C# and MVC design pattern\1. Overview of C#\Overview of C_Sharp\obj\Debug\Overview of C_Sharp.csproj.AssemblyReference.cache
+C:\Users\LUAN\Desktop\Git_Repos\Personal-Study\C# and MVC design pattern\1. Overview of C#\Overview of C_Sharp\obj\Debug\Overview of C_Sharp.csproj.SuggestedBindingRedirects.cache
+C:\Users\LUAN\Desktop\Git_Repos\Personal-Study\C# and MVC design pattern\1. Overview of C#\Overview of C_Sharp\obj\Debug\Overview of C_Sharp.csproj.CoreCompileInputs.cache
+C:\Users\LUAN\Desktop\Git_Repos\Personal-Study\C# and MVC design pattern\1. Overview of C#\Overview of C_Sharp\obj\Debug\Overview of C_Sharp.exe
+C:\Users\LUAN\Desktop\Git_Repos\Personal-Study\C# and MVC design pattern\1. Overview of C#\Overview of C_Sharp\obj\Debug\Overview of C_Sharp.pdb
