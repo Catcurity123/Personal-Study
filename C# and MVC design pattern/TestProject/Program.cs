@@ -6,168 +6,53 @@ using System.Threading.Tasks;
 
 namespace TestProject
 {
-    public class Item
+    public class Person
     {
-        public int? ItemID { get; set; }
-        public string Name { get; set; }
-        public decimal Price { get; set; }
-    }
-    public class Food : Item
-    {
-        public Food(int? FoodId, string FoodName, decimal FoodPrice)
+        public void PrintName()
         {
-            ItemID = FoodId;
-            Name = FoodName;   
-            Price = FoodPrice;
-        }
-
-        public void GetFullDescription()
-        {
-            string Description = $"This Food has an ID of {ItemID}, the name of this food is {Name}, its price is {Price}";
-            Console.WriteLine(Description);
+            Console.WriteLine("My Name is Josh");
         }
     }
 
-    public class Beverage : Item
+    public class Boy : Person
     {
-        public Beverage(int? BeverageId, string BeverageName, decimal BeveragePrice)
-        {
-            ItemID = BeverageId;
-            Name = BeverageName;
-            Price = BeveragePrice;
-        }
-
-        public void GetFullDescription()
-        {
-            string Description = $"This drink has an ID of {ItemID}, the name of this drink is {Name}, its price is {Price}";
-            Console.WriteLine(Description);
-        }
 
     }
 
-    public interface IItemDatabase
+    public class Toy
     {
-        int SaveItemToDatabase(Item item);
-        int GetItemFromDatabase(int foodId);
-    }
 
-    public class SQLFoodDatabase : IItemDatabase
+    }
+    public class Human<T> where T : Person
     {
-        public int SaveItemToDatabase(Item item)
+        T objec;
+        public Human(T objec)
         {
-            //Implementation
-            return 0;
+            this.objec = objec;
         }
 
-        public int GetItemFromDatabase(int itemId)
+        public void MustPrint()
         {
-            //Implementation
-            return 0;
+            objec.PrintName();
         }
     }
 
-    public class FoodRepository 
-    {
-        private SQLFoodDatabase _foodDatabase;
-        public FoodRepository(SQLFoodDatabase database)
-        {
-            _foodDatabase = database;
-        }
 
-        public int SaveFood(Food food)
-        {
-            int result = _foodDatabase.SaveItemToDatabase(food);
-            return result;
-        }
-
-        public int GetFood(int foodId)
-        {
-            int result = _foodDatabase.GetItemFromDatabase(foodId);
-            return result;
-        }
-    }
-
-    public class BeverageRepository
-    {
-        private SQLFoodDatabase _beverageDatabase;
-        public BeverageRepository(SQLFoodDatabase database)
-        {
-            _beverageDatabase = database;
-        }
-
-        public int SaveFood(Beverage beverage)
-        {
-            int result = _beverageDatabase.SaveItemToDatabase(beverage);
-            return result;
-        }
-
-        public int GetFood(int beverageID)
-        {
-            int result = _beverageDatabase.GetItemFromDatabase(beverageID);
-            return result;
-        }
-    }
-
-    public class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            /*
-            int a, b, result;
+            Person person = new Person();
+            Boy boy = new Boy();
+            Toy toy = new Toy();
 
-            while (!int.TryParse(Console.ReadLine(), out a) || !int.TryParse(Console.ReadLine(), out b))
-            {
-                Console.WriteLine("Error: Invalid input. Please enter a valid integer.");
-            }
+            Human<Person> personTypeHuman = new Human<Person>(person);
+            personTypeHuman.MustPrint();
 
-            try
-            {
-                result = a / b;
-                Console.WriteLine("Result: " + result);
-            }
-            catch (DivideByZeroException)
-            {
-                Console.WriteLine("Error: Division by zero.");
-            }
+            Human<Boy> boyTypeHuman = new Human<Boy>(boy);
+            boyTypeHuman.MustPrint();
 
-            Console.ReadLine();
-            */
-            int a, b, result;
-
-            while (true)
-            {
-                Console.Write("Enter a value for a: ");
-                if (!int.TryParse(Console.ReadLine(), out a))
-                {
-                    Console.WriteLine("Error: Invalid input for a.");
-                    continue;
-                }
-
-                Console.Write("Enter a value for b: ");
-                if (!int.TryParse(Console.ReadLine(), out b))
-                {
-                    Console.WriteLine("Error: Invalid input for b.");
-                    continue;
-                }
-
-                try
-                {
-                    result = a / b;
-                    Console.WriteLine("Result: " + result);
-                    break;
-                }
-                catch (DivideByZeroException)
-                {
-                    Console.WriteLine("Error: Division by zero.");
-                }
-            }
-
-            Console.ReadLine();
-
+            Console.ReadKey();
         }
     }
-
-   
-
-
 }
