@@ -112,12 +112,58 @@ namespace TestProject
     {
         static void Main(string[] args)
         {
-            Food BanhMi = new Food(11, "Banh Mi", 5000);
-            Beverage CocaCola = new Beverage(12, "Coca Cola", 2000);
+            /*
+            int a, b, result;
 
-            BanhMi.GetFullDescription();
-            CocaCola.GetFullDescription();
+            while (!int.TryParse(Console.ReadLine(), out a) || !int.TryParse(Console.ReadLine(), out b))
+            {
+                Console.WriteLine("Error: Invalid input. Please enter a valid integer.");
+            }
+
+            try
+            {
+                result = a / b;
+                Console.WriteLine("Result: " + result);
+            }
+            catch (DivideByZeroException)
+            {
+                Console.WriteLine("Error: Division by zero.");
+            }
+
             Console.ReadLine();
+            */
+            int a, b, result;
+
+            while (true)
+            {
+                Console.Write("Enter a value for a: ");
+                if (!int.TryParse(Console.ReadLine(), out a))
+                {
+                    Console.WriteLine("Error: Invalid input for a.");
+                    continue;
+                }
+
+                Console.Write("Enter a value for b: ");
+                if (!int.TryParse(Console.ReadLine(), out b))
+                {
+                    Console.WriteLine("Error: Invalid input for b.");
+                    continue;
+                }
+
+                try
+                {
+                    result = a / b;
+                    Console.WriteLine("Result: " + result);
+                    break;
+                }
+                catch (DivideByZeroException)
+                {
+                    Console.WriteLine("Error: Division by zero.");
+                }
+            }
+
+            Console.ReadLine();
+
         }
     }
 
