@@ -209,6 +209,6 @@ needed.**
 **4. Handle exceptions as soon as possible.**
 
 **5. Don't use a general exception handler if you can handle an exception using a
-specific handler.
+specific handler.**
 
 **6. The exception messages should be very clear.**
