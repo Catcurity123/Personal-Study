@@ -134,7 +134,7 @@ When a destroy message is sent from an activity to a lifeline, it means that the
 lifeline is not going to be executed and the flow will be stopped, as shown in the following
 diagram. It is called a destroy message because it destroys the activity flow:
 
-![destroy](./Picture/destroy.png)
+![destroy](./Picture/Destroy.png)
 
 ## 8.5.8 A duration message
 
