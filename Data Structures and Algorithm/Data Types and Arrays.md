@@ -316,7 +316,8 @@ namespace TestProject
         {
             Random rnd = new Random();
             //Get the number of transport in TransportEnum
-            int transportTypesCount = Enum.GetNames(typeof(TransportEnum)).Length;              //Enum.GetNames(typeof(TransportEnum)) will return a string array of all the transport method in enum
+            //Enum.GetNames(typeof(TransportEnum)) will return a string array of all the transport method in enum
+            int transportTypesCount = Enum.GetNames(typeof(TransportEnum)).Length;              
             //Init a jagged array
             TransportEnum[][] transportEnums = new TransportEnum[12][];
 
