@@ -1,4 +1,4 @@
-# About me
+# Sorting Algorithms
 
 ## Selection Sort 
 Let's start with the selection sort, which is one of the
