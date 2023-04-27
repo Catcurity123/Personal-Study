@@ -1,18 +1,30 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Globalization;
-using System.Runtime.Remoting.Services;
-using System.Threading;
-using System.Security.Cryptography;
-using System.Reflection;
-using System.Drawing.Text;
+# About me
 
+## Selection Sort 
+Let's start with the selection sort, which is one of the
+simplest sorting algorithms. The algorithm divides the array
+into two parts, namely sorted and unsorted. In the following
+iterations, the algorithm finds the smallest element in the
+unsorted part and exchanges it with the first element in the
+unsorted part.
+
+![Selec](./Picture/Selec.png)
+
+At
+the beginning (Step 1), the border is located just at the top of
+the array, which means that the sorted part is empty. Thus, the
+algorithm finds the smallest value in the unsorted part (-42)
+and swaps it with the first element in this part (-11). The
+result is shown in Step 2, where the sorted part contains one
+element (-42), while the unsorted part consists of eight
+elements. The afore mentioned steps are performed a few
+times until only one element is left in the unsorted part. The
+final result is shown in Step 9.
+
+```C#
 namespace TestProject
 {
-    public static class SelectionSort
+    public static class InsertionSort
     {
         //THis declare a static generic method (Swap <T>) that takes T[] array, int firstInex
         //and int MinIndex as parameters
@@ -51,34 +63,6 @@ namespace TestProject
             }
         }
     }
-
-    public static class InsertionSort
-    {
-        public static void Swap<T>(T[] array, int firstIndex, int MinIndex)
-        {
-            //Store the value in tempt and swap it with the second that swap the tempt with the
-            //second, effectively swaping the value of first and second
-            T temp = array[firstIndex];
-            array[firstIndex] = array[MinIndex];
-            array[MinIndex] = temp;
-        }
-        public static void Sort <T>(T[] Array) where T : IComparable
-        {
-            for(int i = 1; i < Array.Length; i++)
-            {
-                int j  = i;
-                while(j > 0 && Array[j].CompareTo(Array[j - 1]) < 0)
-                {
-                    Swap(Array, j, j - 1);
-                    j--;
-                }
-            }
-        }
-    }
-
-
-
-
     class Program
     {
         static void Main(string[] args)
@@ -99,3 +83,4 @@ namespace TestProject
     }
 
 }
+```
