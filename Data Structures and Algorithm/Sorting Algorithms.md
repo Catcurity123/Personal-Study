@@ -1,20 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Globalization;
-using System.Runtime.Remoting.Services;
-using System.Threading;
-using System.Security.Cryptography;
-using System.Reflection;
-using System.Drawing.Text;
-using System.Collections.Concurrent;
-using System.Collections;
+# Sorting
 
+## Selection Sort 
+
+**Basically, what we are doing is** in the first loop, take the first index and its value and assume that it is the minimum value. After that in the second loop, we will find the actually minimum value in the array by comparing the first min value to the rest of the array. We will do this until we find the minimum value of the array. Then we will swap the minimum value for the value in the first loop.
+
+```C#
 namespace TestProject
 {
-    public static class SelectionSort
+    public static class InsertionSort
     {
         //THis declare a static generic method (Swap <T>) that takes T[] array, int firstInex
         //and int MinIndex as parameters
@@ -53,7 +46,33 @@ namespace TestProject
             }
         }
     }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter the values separated by spaces: ");
+            string input = Console.ReadLine();
+            string[] values = input.Split(' ');
 
+            int[] UnsortedArr = new int[values.Length];
+            for (int i = 0; i < values.Length; i++)
+            {
+                UnsortedArr[i] = int.Parse(values[i]);
+            }
+
+            InsertionSort.Sort(UnsortedArr);
+            Console.WriteLine(string.Join(" | ", UnsortedArr));
+        }
+    }
+
+}
+```
+
+## Insertion Sort
+
+**Basically, what we are doing is**  iterating through the array and comparing each element with the elements before it. If the element is smaller than the previous element, it is moved to the correct position in the sorted part of the array.
+
+```C#
     public static class InsertionSort
     {
         public static void Swap<T>(T[] array, int firstIndex, int MinIndex)
@@ -64,16 +83,12 @@ namespace TestProject
             array[firstIndex] = array[MinIndex];
             array[MinIndex] = temp;
         }
-
-        public static void Sort<T>(T[] Array) where T : IComparable
+        public static void Sort <T>(T[] Array) where T : IComparable
         {
-            //iterating through the whole array
-            for (int i = 1; i < Array.Length; i++)
+            for(int i = 1; i < Array.Length; i++)
             {
-                //Comparing each element with the element before it, if the element is smaller then swap its position
-                //Do that to the whole length of the current array
-                int j = i;
-                while (j > 0 && Array[j].CompareTo(Array[j - 1]) < 0)
+                int j  = i;
+                while(j > 0 && Array[j].CompareTo(Array[j - 1]) < 0)
                 {
                     Swap(Array, j, j - 1);
                     j--;
@@ -81,7 +96,14 @@ namespace TestProject
             }
         }
     }
+```
 
+## Bubble Sort
+
+**Basically, what we are doing is** repeatedly stepping through the list, comparing adjacent elements and swapping them if they are in the wrong order. The pass through the list is repeated until the list is sorted.
+
+
+```C#
     public static class BubbleSort
     {
         public static void Swap<T>(T[] array, int LargerIndex, int SmallerIndex) where T : IComparable
@@ -90,6 +112,7 @@ namespace TestProject
             array[LargerIndex] = array[SmallerIndex];
             array[SmallerIndex] = temp;
         }
+
         public static void Sort <T>(T[] array) where T : IComparable
         {
             for(int ArrayLoopIndex = 0; ArrayLoopIndex <  array.Length; ArrayLoopIndex++)
@@ -111,6 +134,12 @@ namespace TestProject
         }
     }
 
+```
+
+## Quick Sort
+
+
+```C#
     public static class QuickSort
     {
         public static void Swap<T>(T[] array, int i, int j) where T : IComparable
@@ -165,80 +194,5 @@ namespace TestProject
             }
         }
     }
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            ArrayList arrayList = new ArrayList();
-            arrayList.Add(5);
-            arrayList.AddRange(new int[] { 6, -7, 8 });
-            arrayList.AddRange(new object[] { "Marcin", "Mary" });
-            arrayList.Insert(5, 7.8);
-
-
-            bool containsMary = arrayList.Contains("Mary");
-            int minusIndex = arrayList.IndexOf(-7);
-            arrayList.Remove(5);
-
-            Console.WriteLine(containsMary);
-            Console.WriteLine(minusIndex);
-            foreach (object element in arrayList)
-            {
-                Console.WriteLine(element);
-            }
-        }
-    }
-
-}
