@@ -7,7 +7,7 @@
 ```C#
 namespace TestProject
 {
-    public static class InsertionSort
+    public static class SelectionSort
     {
         //THis declare a static generic method (Swap <T>) that takes T[] array, int firstInex
         //and int MinIndex as parameters
@@ -60,7 +60,7 @@ namespace TestProject
                 UnsortedArr[i] = int.Parse(values[i]);
             }
 
-            InsertionSort.Sort(UnsortedArr);
+            SelectionSort.Sort(UnsortedArr);
             Console.WriteLine(string.Join(" | ", UnsortedArr));
         }
     }
