@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS and Virtualization/Virtualization and Cloud Computing/Lecture 1 - VMM design techniques.md",
+                "file": "Virtualization and Cloud Computing/Lecture 6 - Xen and Paravirtualization.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS and Virtualization/Virtualization and Cloud Computing/Lecture 1 - VMM design techniques.md",
+                "file": "Virtualization and Cloud Computing/Lecture 6 - Xen and Paravirtualization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS and Virtualization/Virtualization and Cloud Computing/Lecture 1 - VMM design techniques.md",
+                "file": "Virtualization and Cloud Computing/Lecture 6 - Xen and Paravirtualization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS and Virtualization/Virtualization and Cloud Computing/Lecture 1 - VMM design techniques.md"
+                "file": "Virtualization and Cloud Computing/Lecture 6 - Xen and Paravirtualization.md"
               }
             }
           },
@@ -169,22 +169,26 @@
   },
   "active": "6a91cb1c7b221717",
   "lastOpenFiles": [
+    "Virtualization and Cloud Computing/Lecture 5 - Input and Output Virtualization.md",
+    "Virtualization and Cloud Computing/Lecture 6 - Xen and Paravirtualization.md",
+    "Picture/Pasted image 20240209200613.png",
+    "Picture/Pasted image 20240209200256.png",
+    "Picture/Pasted image 20240209195846.png",
+    "Picture/Pasted image 20240209194056.png",
+    "Virtualization and Cloud Computing/Lecture 4 - Memory Virtualization Techniques.md",
+    "Virtualization and Cloud Computing/Lecture 3 - Full Virtualization.md",
+    "Virtualization and Cloud Computing/Lecture 2 - Hardware-assisted CPU Virtualization in QEMU KVM.md",
+    "Picture/Pasted image 20240209193926.png",
+    "Picture/Pasted image 20240209185936.png",
     "LPIC-1/Picture/Pasted image 20240102114821.png",
     "OS and Virtualization/Virtualization and Cloud Computing/Lecture 2 - Hardware-assisted CPU Virtualization in QEMU KVM.md",
     "OS and Virtualization/Virtualization and Cloud Computing/Lecture 3 - Full Virtualization.md",
     "OS and Virtualization/Picture/Pasted image 20240208221322.png",
     "OS and Virtualization/Picture/Pasted image 20240208220024.png",
     "OS and Virtualization/Picture/Pasted image 20240208213550.png",
-    "OS and Virtualization/Picture/Pasted image 20240208212748.png",
     "OS and Virtualization/Virtualization and Cloud Computing/Lecture 1 - VMM design techniques.md",
-    "OS and Virtualization/Picture/Pasted image 20240208210557.png",
-    "OS and Virtualization/Picture/Pasted image 20240208204906.png",
-    "OS and Virtualization/Picture/Pasted image 20240208184225.png",
     "OS and Virtualization/Picture",
     "OS and Virtualization/Untitled.md",
-    "OS and Virtualization/Picture/Pasted image 20240208195722.png",
-    "OS and Virtualization/Picture/Pasted image 20240208195624.png",
-    "OS and Virtualization/Picture/Pasted image 20240208195424.png",
     "Cloud/101/Done 101/AWS Networking 101.md",
     "Cloud/101/Done 101/DNS 101.md",
     "Cloud/101/R53 101.md",
@@ -203,10 +207,6 @@
     "LPIC-1/Chapter 1/4. Linux Boot Sequence.md",
     "LPIC-1/Chapter 4/2. Bash history and the Manual.md",
     "LPIC-1/Chapter 4/1. Your Bash Shell Environment.md",
-    "LPIC-1/Cheat Sheet.md",
-    "LPIC-1/Chapter 2/3. Install a Boot Manager.md",
-    "LPIC-1/Chapter 2/2. Introduction to LVM.md",
-    "LPIC-1/Chapter 2/4. Interacting with the Boot Loader.md",
     "OS and Virtualization",
     "OS and Virtualization/Virtualization and Cloud Computing",
     "CCNA/Chapter 7 - Routing",
