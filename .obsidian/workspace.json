@@ -1,0 +1,155 @@
+{
+  "main": {
+    "id": "9d7e9c6b51c55935",
+    "type": "split",
+    "children": [
+      {
+        "id": "ae2272779757c398",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2cfce165e47840f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CCNA/Chapter 7 - Routing/7.3 Open Shortest Path First (OSPF).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5e95ee0f07761ffe",
+    "type": "split",
+    "children": [
+      {
+        "id": "6a69b695e7f1d0c6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "56ef3b64687dbe2b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "addc96cd756bf32c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "13b68107dc4edcdf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "be596750eecef8a2",
+    "type": "split",
+    "children": [
+      {
+        "id": "5766b63e840c2871",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a8c95ce278093b04",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CCNA/Chapter 7 - Routing/7.3 Open Shortest Path First (OSPF).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f9b30e3ce91cb178",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CCNA/Chapter 7 - Routing/7.3 Open Shortest Path First (OSPF).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8843435df0253d56",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "07b06630f77e769c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CCNA/Chapter 7 - Routing/7.3 Open Shortest Path First (OSPF).md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "2cfce165e47840f2",
+  "lastOpenFiles": [
+    "CCNA/Chapter 7 - Routing/7.2 RIP and EIGRP.md",
+    "CCNA/Chapter 7 - Routing/7.1 Dynamic Routing.md",
+    "C# and MVC design pattern/3. Implementation of OOP in C#/Implementation of OOP in C#.md"
+  ]
+}

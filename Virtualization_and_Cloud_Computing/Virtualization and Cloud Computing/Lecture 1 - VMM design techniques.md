@@ -6,7 +6,9 @@
 (+) All CPUs have multiple privilege levels, normally user process in ring 3 and OS in ring 0. Guest OS must be protected from guest apps, but cannot be fully privileged like host OS/VMM, so it Guest OS can run in an intermediate ring like ring 1?
 
 ==> `Trap and emulate VMM` means that guest OS runs at lower privilege level than VMM, traps to VMM for privileged operation but still has a higher privilege than the guest App.
+
 ![[Pasted image 20240122190956.png]]
+
 (+) Therefore, whenever an application in the guest OS makes a privileged call, it will be redirect to the VMM, the VMM will do the work on behalf of the guest OS (emulate) and then return the result to the guest OS and the guest OS return to the guest application.
 ![[Pasted image 20240122191414.png | 600]]
 

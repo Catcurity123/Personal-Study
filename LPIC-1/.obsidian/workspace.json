@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "811e5571f786ddb3",
+    "id": "0f9d3d8bf9f335e4",
     "type": "split",
     "children": [
       {
-        "id": "5d268923505834a5",
+        "id": "ce203b72373eb29e",
         "type": "tabs",
         "children": [
           {
-            "id": "9f04a8ba46f46001",
+            "id": "e448628efa6c131a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chapter 3/3. The Debian Package Utility.md",
+                "file": "Chapter 5/1. Working with Files.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,15 +25,30 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "3e6600685c8e61ad",
+    "id": "f46eaf5184b37c13",
     "type": "split",
     "children": [
       {
-        "id": "994dfd8355065b52",
+        "id": "dcde9d7f83365973",
         "type": "tabs",
         "children": [
           {
-            "id": "3d1cbab9de3bfaa2",
+            "id": "e8f42d9888faef1c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": true,
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a0b6ec9c64d02631",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -41,51 +56,29 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "528d4f1b2779bc8a",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
-            "id": "d50ae53f3035f1cf",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
-    "id": "8aaaddbdc02235be",
+    "id": "c44021a0dbb7fd50",
     "type": "split",
     "children": [
       {
-        "id": "4b9440cb9998a051",
+        "id": "eb49161abbf8c50d",
         "type": "tabs",
         "children": [
           {
-            "id": "cd69163e37818b91",
+            "id": "69e5ce5493223d89",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chapter 3/3. The Debian Package Utility.md",
+                "file": "Chapter 5/1. Working with Files.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +90,19 @@
             }
           },
           {
-            "id": "d7726b18c4552a28",
+            "id": "81b60339884f1e62",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chapter 3/3. The Debian Package Utility.md",
+                "file": "Chapter 5/1. Working with Files.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "34dfd0a91d3e9c36",
+            "id": "0c612e54acb542c1",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,16 +113,45 @@
             }
           },
           {
-            "id": "548f9d79f6523c8c",
+            "id": "33c26e9c419dcd04",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Chapter 3/3. The Debian Package Utility.md"
+                "file": "Chapter 5/1. Working with Files.md"
+              }
+            }
+          },
+          {
+            "id": "5dcfedebaca45085",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "eb00d01162d4a816",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "6abeaaa4235761ed",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -140,32 +162,59 @@
     "hiddenItems": {
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "canvas:Create new canvas": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3d1cbab9de3bfaa2",
+  "active": "e448628efa6c131a",
   "lastOpenFiles": [
-    "Chapter 3/2. Advanced Package Tool (APT).md",
+    "Chapter 5/3. Standard Output, Standard Input, Error.md",
+    "Chapter 9/Disk Usage.md",
+    "Chapter 9/Legacy MBR Partition.md",
+    "Debunk.md",
+    "Chapter 4/1. Your Bash Shell Environment.md",
+    "Chapter 3/5. Red Hat Package Manager (rpm).md",
+    "Chapter 3/3. The Debian Package Utility.md",
     "Chapter 3/1. Manage Shared Library.md",
     "Chapter 2/4. Interacting with the Boot Loader.md",
-    "Chapter 2/1. Design Hard Disk layout.md",
-    "Chapter 1/4. Linux Boot Sequence.md",
-    "Chapter 1/1. Pseudo File System.md",
-    "Cheat Sheet.md",
-    "Debunk.md",
     "Chapter 2/3. Install a Boot Manager.md",
-    "Chapter 3/Untitled.md",
-    "Chapter 3",
-    "Untitled",
-    "Chapter 2/Untitled.md",
-    "Picture/grub2.png",
     "Chapter 2/2. Introduction to LVM.md",
+    "Chapter 2/1. Design Hard Disk layout.md",
     "Chapter 1/5. Change Runlevels, Boot targets and Shutdown or Reboot the System.md",
+    "Chapter 1/4. Linux Boot Sequence.md",
     "Chapter 1/3. Working with Kernel Modules.md",
     "Chapter 1/2. Investigating Hardware.md",
-    "Chapter 1/Pseudo File System.md"
+    "Chapter 1/1. Pseudo File System.md",
+    "Chapter 3/2. Advanced Package Tool (APT).md",
+    "Chapter 8/Using VI or VIM edit.md",
+    "Chapter 9/Linux File Systems.md",
+    "Cheat Sheet.md",
+    "Pasted image 20240306144132.png",
+    "Chapter 6/Understanding and Changing Process priorities.md",
+    "Chapter 6/Reviewing the State of Your device.md",
+    "Chapter 5/Extra note.md",
+    "Chapter 7/Regular Expression.md",
+    "Chapter 9",
+    "Chapter 8",
+    "Chapter 4/4. More text manipulation.md",
+    "Chapter 7",
+    "Picture/Pasted image 20240229160104.png",
+    "Picture/Pasted image 20240229160025.png",
+    "Picture/Pasted image 20240229155811.png",
+    "Picture/Pasted image 20240229155725.png",
+    "Picture/Pasted image 20240229155424.png",
+    "Picture/Pasted image 20240229152838.png",
+    "Picture/Pasted image 20240229152923.png",
+    "Picture/Pasted image 20240229151450.png",
+    "Picture/Pasted image 20240229151201.png",
+    "SAA-C03/5. EBS and EFS",
+    "SAA-C03/ec2lab.txt",
+    "SAA-C03/Github-Repos/Testkey.pem",
+    "SAA-C03/Github-Repos/Không được xác nhận 950361.crdownload",
+    "SAA-C03/Github-Repos/TestKey2.pem",
+    "SAA-C03/Github-Repos/Không được xác nhận 616679.crdownload",
+    "SAA-C03/Github-Repos/TestUser_accessKeys.csv",
+    "Untitled.canvas"
   ]
 }

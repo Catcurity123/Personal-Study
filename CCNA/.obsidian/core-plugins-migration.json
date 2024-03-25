@@ -9,12 +9,12 @@
   "tag-pane": true,
   "page-preview": true,
   "daily-notes": true,
-  "templates": true,
+  "templates": false,
   "note-composer": true,
-  "command-palette": true,
+  "command-palette": false,
   "slash-command": false,
   "editor-status": true,
-  "bookmarks": true,
+  "bookmarks": false,
   "markdown-importer": false,
   "zk-prefixer": false,
   "random-note": false,
@@ -25,5 +25,6 @@
   "workspaces": false,
   "file-recovery": true,
   "publish": false,
-  "sync": false
+  "sync": false,
+  "properties": true
 }

@@ -23,7 +23,7 @@
 (+) `wait()`: causes a parent to block until child terminates.
 
 ###### 1. What happens during a fork?
-(+) A new process is created by making a copu of parent's memory image.
+(+) A new process is created by making a copy of parent's memory image.
 (+) The new process is added to the OS process list and scheduled
 (+) Parent and child start execution just after fork(with different return values)
 (+) Parent and child execute and modify the memory data independently after creation.
@@ -36,9 +36,21 @@
 (+) Terminated process exists as a `zombie` - meaning it is not cleared
 (+) When a parent calls `wait()`, zombie child is cleaned up or `reaped`
 (+) `wait()` blocks in parent until child terminates (non-blocking ways to invoke wait exist)
-
+![[Pasted image 20240210232015.png | 600]]
 
 #### C. What happens during exec
 (+) After fork, parent and child are running same code => `not too useful`
 (+) A process can run `exec()` to load another executable to its memory image => so, a child can run a different program from parent.
 (+) Varians of `exec()`, e.g., to pass comandline arguments to new executable.
+![[Pasted image 20240210232556.png | 500]]
+#### E. Case Study: How does a shell work?
+(+) In a basic OS, the `init` process is created after initialization of hardware.
+(+) The `init` process spawns a shell like `bash`.
+(+) Shell reads user command, `fork` a child, `exec` the command executable, waits for it to finish, and reads the next command provided by the user.
+(+) Common commands like `ls` are all executables that are simple `exec'ed` by the shell.
+![[Pasted image 20240210232915.png]]
+
+(+) Shell can manipulate the child in strange way, suppose we want to redirect output from a command to a file `prompt> ls > foo.txt`
+(+) Shell spawns a child, rewires its standard output to a file, then calls `exec` on the child
+
+![[Pasted image 20240210233202.png]]

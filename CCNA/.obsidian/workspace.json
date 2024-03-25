@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "811e5571f786ddb3",
+    "id": "0f9d3d8bf9f335e4",
     "type": "split",
     "children": [
       {
-        "id": "5d268923505834a5",
+        "id": "ce203b72373eb29e",
         "type": "tabs",
         "children": [
           {
-            "id": "9f04a8ba46f46001",
+            "id": "6a91cb1c7b221717",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chapter 1/Investigating Hardware.md",
+                "file": "Chapter 7 - Routing/7.3 Open Shortest Path First (OSPF).md",
                 "mode": "source",
                 "source": false
               }
@@ -25,15 +25,30 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "3e6600685c8e61ad",
+    "id": "f46eaf5184b37c13",
     "type": "split",
     "children": [
       {
-        "id": "994dfd8355065b52",
+        "id": "dcde9d7f83365973",
         "type": "tabs",
         "children": [
           {
-            "id": "3d1cbab9de3bfaa2",
+            "id": "e8f42d9888faef1c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": true,
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a0b6ec9c64d02631",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -41,51 +56,29 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "528d4f1b2779bc8a",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
-            "id": "d50ae53f3035f1cf",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
-    "id": "8aaaddbdc02235be",
+    "id": "c44021a0dbb7fd50",
     "type": "split",
     "children": [
       {
-        "id": "4b9440cb9998a051",
+        "id": "eb49161abbf8c50d",
         "type": "tabs",
         "children": [
           {
-            "id": "cd69163e37818b91",
+            "id": "69e5ce5493223d89",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chapter 1/Investigating Hardware.md",
+                "file": "Chapter 7 - Routing/7.3 Open Shortest Path First (OSPF).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +90,19 @@
             }
           },
           {
-            "id": "d7726b18c4552a28",
+            "id": "81b60339884f1e62",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chapter 1/Investigating Hardware.md",
+                "file": "Chapter 7 - Routing/7.3 Open Shortest Path First (OSPF).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "34dfd0a91d3e9c36",
+            "id": "0c612e54acb542c1",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,16 +113,45 @@
             }
           },
           {
-            "id": "548f9d79f6523c8c",
+            "id": "33c26e9c419dcd04",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Chapter 1/Investigating Hardware.md"
+                "file": "Chapter 7 - Routing/7.3 Open Shortest Path First (OSPF).md"
+              }
+            }
+          },
+          {
+            "id": "5dcfedebaca45085",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "eb00d01162d4a816",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "6abeaaa4235761ed",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -140,14 +162,59 @@
     "hiddenItems": {
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "canvas:Create new canvas": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9f04a8ba46f46001",
+  "active": "6a91cb1c7b221717",
   "lastOpenFiles": [
-    "Chapter 1/Pseudo File System.md"
+    "Chapter 7 - Routing/7.1 Dynamic Routing.md",
+    "Chapter 6 - STP/6.4 EtherChannel.md",
+    "Chapter 5 - VLANs/5.2 Trunking.md",
+    "Chapter 6 - STP/6.3 Rapid Spanning Tree Protocol (RSTP).md",
+    "Chapter 6 - STP/6.2 STP Components and Configuration.md",
+    "Practical Lab/1.6 Spanning Tree Configuration.md",
+    "Chapter 6 - STP/6.1 Spanning Tree Protocol (STP).md",
+    "Practical Lab/1.7 EtherChannel.md",
+    "Practical Lab/1.5 DTP and VTP.md",
+    "Chapter 4 - Routing/4.2 Routing Fundamentals.md",
+    "Chapter 7 - Routing/7.2 RIP and EIGRP.md",
+    "Practical Lab/1.1 Intro to the CLI.md",
+    "Practical Lab/1.2 Ethernet Lan Switching.md",
+    "Chapter 1 - Interface and Cables/1.1 Interfaces and Cables.md",
+    "Practical Lab/1.3 Routing.md",
+    "Chapter 3 - Ethernet LAN Switching/3.1 Ethernet LAN Switching.md",
+    "Chapter 2 - Networking Fundamentals/2.2 Everything Hosts do to speak on the internew.md",
+    "Chapter 2 - Networking Fundamentals/2.1 OSI Model and TCP.IP Suite.md",
+    "Chapter 5 - VLANs/5.3 DTP and VTP.md",
+    "Chapter 5 - VLANs/5.1 VLAN Fundamentals.md",
+    "Chapter 3 - Ethernet LAN Switching/3.3 Switch Interface.md",
+    "Chapter 3 - Ethernet LAN Switching/3.2 Subnetting.md",
+    "Chapter 2 - Networking Fundamentals/2.4 Routers.md",
+    "Chapter 2 - Networking Fundamentals/2.3 Switches.md",
+    "4.1 IPv4 Header.md",
+    "Practical Lab/1.4 VLAN.md",
+    "Lecture 8 - TCP and UDP",
+    "Picture/Pasted image 20240219163512.png",
+    "Picture/Pasted image 20240208195424.png",
+    "Picture/Pasted image 20240208194157.png",
+    "Picture/Pasted image 20240208184622.png",
+    "Picture/Pasted image 20240208184225.png",
+    "Picture/Pasted image 20240209200613.png",
+    "Picture/Pasted image 20240209200256.png",
+    "Picture/Pasted image 20240209195846.png",
+    "Picture/Pasted image 20240209194056.png",
+    "Picture/Pasted image 20240209193926.png",
+    "OS and Virtualization/Picture",
+    "Cloud/101/Information",
+    "OS and Virtualization",
+    "OS and Virtualization/Virtualization and Cloud Computing",
+    "CCNA/Chapter 7 - Routing",
+    "CCNA/TNE Labs",
+    "SWE30010",
+    "Cloud/AWS CLI Cheat Sheet",
+    "Unsorted",
+    "Untitled.canvas"
   ]
 }

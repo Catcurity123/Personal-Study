@@ -8,14 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6a91cb1c7b221717",
+            "id": "e448628efa6c131a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "OS and Virtualization/Virtualization and Cloud Computing/Lecture 1 - VMM design techniques.md",
-                "mode": "source",
-                "source": false
+                "file": "Picture/Pasted image 20240313164615.png"
               }
             }
           }
@@ -78,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS and Virtualization/Virtualization and Cloud Computing/Lecture 1 - VMM design techniques.md",
+                "file": "Picture/Pasted image 20240313164615.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS and Virtualization/Virtualization and Cloud Computing/Lecture 1 - VMM design techniques.md",
+                "file": "Picture/Pasted image 20240313164615.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS and Virtualization/Virtualization and Cloud Computing/Lecture 1 - VMM design techniques.md"
+                "file": "Picture/Pasted image 20240313164615.png"
               }
             }
           },
@@ -167,53 +165,53 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6a91cb1c7b221717",
+  "active": "e448628efa6c131a",
   "lastOpenFiles": [
-    "OS and Virtualization/Virtualization and Cloud Computing/Lecture 2 - Hardware-assisted CPU Virtualization in QEMU KVM.md",
-    "OS and Virtualization/Virtualization and Cloud Computing/Lecture 3 - Full Virtualization.md",
-    "OS and Virtualization/Picture/Pasted image 20240208221322.png",
-    "OS and Virtualization/Picture/Pasted image 20240208220024.png",
-    "OS and Virtualization/Picture/Pasted image 20240208213550.png",
-    "OS and Virtualization/Picture/Pasted image 20240208212748.png",
-    "OS and Virtualization/Virtualization and Cloud Computing/Lecture 1 - VMM design techniques.md",
-    "OS and Virtualization/Picture/Pasted image 20240208210557.png",
-    "OS and Virtualization/Picture/Pasted image 20240208204906.png",
-    "OS and Virtualization/Picture/Pasted image 20240208184225.png",
-    "OS and Virtualization/Picture",
-    "OS and Virtualization/Untitled.md",
-    "OS and Virtualization/Picture/Pasted image 20240208195722.png",
-    "OS and Virtualization/Picture/Pasted image 20240208195624.png",
-    "OS and Virtualization/Picture/Pasted image 20240208195424.png",
-    "Cloud/101/Done 101/AWS Networking 101.md",
-    "Cloud/101/Done 101/DNS 101.md",
-    "Cloud/101/R53 101.md",
-    "Cloud/101/Information/Elastic Container Service (ECS) 101.md",
-    "Cloud/101/Done 101/EC2 101.md",
-    "CCNA/Chapter 4 - Routing/4.1 IPv4 Header.md",
-    "CCNA/Chapter 3 - Ethernet LAN Switching/3.1 Ethernet LAN Switching.md",
-    "LPIC-1/Chapter 1/5. Change Runlevels, Boot targets and Shutdown or Reboot the System.md",
-    "LPIC-1/Chapter 1/3. Working with Kernel Modules.md",
-    "LPIC-1/Chapter 1/2. Investigating Hardware.md",
-    "LPIC-1/Chapter 1/1. Pseudo File System.md",
-    "Cloud/AWS Service/Cloudwatch 101.md",
-    "Cloud/101/Information/Container 101.md",
-    "Cloud/101/Information",
-    "Cloud/101/Information/Virtualization 101.md",
-    "LPIC-1/Chapter 1/4. Linux Boot Sequence.md",
-    "LPIC-1/Chapter 4/2. Bash history and the Manual.md",
-    "LPIC-1/Chapter 4/1. Your Bash Shell Environment.md",
-    "LPIC-1/Cheat Sheet.md",
-    "LPIC-1/Chapter 2/3. Install a Boot Manager.md",
-    "LPIC-1/Chapter 2/2. Introduction to LVM.md",
-    "LPIC-1/Chapter 2/4. Interacting with the Boot Loader.md",
-    "OS and Virtualization",
-    "OS and Virtualization/Virtualization and Cloud Computing",
-    "CCNA/Chapter 7 - Routing",
-    "CCNA/TNE Labs",
-    "SWE30010",
-    "Cloud/AWS CLI Cheat Sheet",
-    "Unsorted",
-    "Cloud/101/Done 101",
+    "Template Script/Script.md",
+    "Picture/Pasted image 20240313164615.png",
+    "Docker/2. Docker images.md",
+    "Docker/3. Docker Cheatsheet.md",
+    "Docker/1. Container and Docker.md",
+    "Ansible/4. Playbooks in Action.md",
+    "Ansible/3. Ansible Playbook.md",
+    "Ansible/Picture/Untitled",
+    "Ansible/Picture/Pasted image 20240325152856.png",
+    "Ansible/2. Ansible Tasks.md",
+    "Ansible/1. Introduction to Ansible.md",
+    "Ansible/Picture/Pasted image 20240325151317.png",
+    "Ansible/Picture/Pasted image 20240325145715.png",
+    "Ansible/Picture/Pasted image 20240325144756.png",
+    "Ansible/Picture/Pasted image 20240325144406.png",
+    "Ansible/Picture/Pasted image 20240325143707.png",
+    "Ansible/Picture",
+    "Ansible/Picture/Pasted image 20240325142303.png",
+    "Ansible",
+    "SAA-C03/8. Route 53/8.2 R53 Deep Dive.md",
+    "SAA-C03/3. S3/3.8 Optimize S3 Performance.md",
+    "SAA-C03/3. S3/3.3 Static Website on S3.md",
+    "SAA-C03/3. S3/3.2 Object ACLs and Bucket Policies.md",
+    "SAA-C03/3. S3/3.1 S3 Overview.md",
+    "SAA-C03/4.EC2/4.1 EC2 Overview.md",
+    "SAA-C03/4.EC2/4.5 Networking with EC2.md",
+    "SAA-C03/8. Route 53/8.1 What is DNS.md",
+    "Orchesstration Tool/Kubernetes.md",
+    "Template Script",
+    "Orchesstration Tool",
+    "SAA-C03/4.EC2/4.2 EC2 Pricing Options.md",
+    "Done 101/AWS Networking 101.md",
+    "Information/Container 101.md",
+    "Picture/Pasted image 20240319182554.png",
+    "Docker",
+    "SAA-C03/7. VPC/7.6 Using AWS PrivateLink.md",
+    "SAA-C03/7. VPC/7.5 Buliding SOlutions across VPCs with Peering.md",
+    "SAA-C03/7. VPC/7.4 VPC endpoint.md",
+    "SAA-C03/6. RDS/6.4 DynamoDB.md",
+    "SAA-C03/7. VPC/7.3 VPC Routing and Security.md",
+    "Picture/Pasted image 20240314163043.png",
+    "SAA-C03/8. Route 53",
+    "SAA-C03/7. VPC",
+    "SAA-C03/6. RDS",
+    "SAA-C03/5. EBS and EFS",
     "Untitled.canvas"
   ]
 }
