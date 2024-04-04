@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chapter 7 - Routing/7.3 Open Shortest Path First (OSPF).md",
+                "file": "Chapter 8 - TCP and UDP/8.1 TCP and UDP.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chapter 7 - Routing/7.3 Open Shortest Path First (OSPF).md",
+                "file": "Chapter 8 - TCP and UDP/8.1 TCP and UDP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chapter 7 - Routing/7.3 Open Shortest Path First (OSPF).md",
+                "file": "Chapter 8 - TCP and UDP/8.1 TCP and UDP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Chapter 7 - Routing/7.3 Open Shortest Path First (OSPF).md"
+                "file": "Chapter 8 - TCP and UDP/8.1 TCP and UDP.md"
               }
             }
           },
@@ -169,43 +169,43 @@
   },
   "active": "6a91cb1c7b221717",
   "lastOpenFiles": [
+    "Chapter 9 - IPv6/9.1 IPv6.md",
+    "Picture/Pasted image 20240404083300.png",
+    "Chapter 8 - TCP and UDP/8.1 TCP and UDP.md",
+    "Picture/Pasted image 20240404083700.png",
+    "Picture/Pasted image 20240404083454.png",
+    "Picture/Pasted image 20240404082820.png",
+    "Picture/Pasted image 20240404082331.png",
+    "Picture/Pasted image 20240404082240.png",
+    "Picture/Pasted image 20240404082221.png",
+    "Picture/Pasted image 20240404080941.png",
+    "Picture/Pasted image 20240404081946.png",
+    "Picture/Pasted image 20240404081811.png",
+    "Practical Lab/1.6 Spanning Tree Configuration.md",
+    "Chapter 9 - IPv6",
+    "Chapter 4 - Routing/4.1 IPv4 Header.md",
+    "Chapter 3 - Ethernet LAN Switching/3.1 Ethernet LAN Switching.md",
+    "Chapter 6 - STP/6.1 Spanning Tree Protocol (STP).md",
+    "Chapter 3 - Ethernet LAN Switching/3.3 Switch Interface.md",
+    "Chapter 3 - Ethernet LAN Switching/3.2 Subnetting.md",
+    "Chapter 2 - Networking Fundamentals/2.2 Everything Hosts do to speak on the internew.md",
+    "Chapter 1 - Interface and Cables/1.1 Interfaces and Cables.md",
+    "Chapter 7 - Routing/7.3 Open Shortest Path First (OSPF).md",
     "Chapter 7 - Routing/7.1 Dynamic Routing.md",
     "Chapter 6 - STP/6.4 EtherChannel.md",
     "Chapter 5 - VLANs/5.2 Trunking.md",
     "Chapter 6 - STP/6.3 Rapid Spanning Tree Protocol (RSTP).md",
     "Chapter 6 - STP/6.2 STP Components and Configuration.md",
-    "Practical Lab/1.6 Spanning Tree Configuration.md",
-    "Chapter 6 - STP/6.1 Spanning Tree Protocol (STP).md",
     "Practical Lab/1.7 EtherChannel.md",
     "Practical Lab/1.5 DTP and VTP.md",
     "Chapter 4 - Routing/4.2 Routing Fundamentals.md",
     "Chapter 7 - Routing/7.2 RIP and EIGRP.md",
     "Practical Lab/1.1 Intro to the CLI.md",
     "Practical Lab/1.2 Ethernet Lan Switching.md",
-    "Chapter 1 - Interface and Cables/1.1 Interfaces and Cables.md",
     "Practical Lab/1.3 Routing.md",
-    "Chapter 3 - Ethernet LAN Switching/3.1 Ethernet LAN Switching.md",
-    "Chapter 2 - Networking Fundamentals/2.2 Everything Hosts do to speak on the internew.md",
     "Chapter 2 - Networking Fundamentals/2.1 OSI Model and TCP.IP Suite.md",
     "Chapter 5 - VLANs/5.3 DTP and VTP.md",
-    "Chapter 5 - VLANs/5.1 VLAN Fundamentals.md",
-    "Chapter 3 - Ethernet LAN Switching/3.3 Switch Interface.md",
-    "Chapter 3 - Ethernet LAN Switching/3.2 Subnetting.md",
-    "Chapter 2 - Networking Fundamentals/2.4 Routers.md",
-    "Chapter 2 - Networking Fundamentals/2.3 Switches.md",
-    "4.1 IPv4 Header.md",
-    "Practical Lab/1.4 VLAN.md",
-    "Lecture 8 - TCP and UDP",
-    "Picture/Pasted image 20240219163512.png",
-    "Picture/Pasted image 20240208195424.png",
-    "Picture/Pasted image 20240208194157.png",
-    "Picture/Pasted image 20240208184622.png",
-    "Picture/Pasted image 20240208184225.png",
-    "Picture/Pasted image 20240209200613.png",
-    "Picture/Pasted image 20240209200256.png",
-    "Picture/Pasted image 20240209195846.png",
-    "Picture/Pasted image 20240209194056.png",
-    "Picture/Pasted image 20240209193926.png",
+    "Chapter 8 - TCP and UDP",
     "OS and Virtualization/Picture",
     "Cloud/101/Information",
     "OS and Virtualization",
@@ -214,7 +214,6 @@
     "CCNA/TNE Labs",
     "SWE30010",
     "Cloud/AWS CLI Cheat Sheet",
-    "Unsorted",
     "Untitled.canvas"
   ]
 }
