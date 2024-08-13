@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture 11/Lecture 11 - Condition Variables.md",
+                "file": "Lecture 1/Lecture 1 - What is an Operating System.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture 11/Lecture 11 - Condition Variables.md",
+                "file": "Lecture 1/Lecture 1 - What is an Operating System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture 11/Lecture 11 - Condition Variables.md",
+                "file": "Lecture 1/Lecture 1 - What is an Operating System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lecture 11/Lecture 11 - Condition Variables.md"
+                "file": "Lecture 1/Lecture 1 - What is an Operating System.md"
               }
             }
           },
@@ -190,8 +190,8 @@
   },
   "active": "9a0df05925f25444",
   "lastOpenFiles": [
-    "Lecture 10/Lecture 10 - Locks.md",
     "Lecture 11/Lecture 11 - Condition Variables.md",
+    "Lecture 10/Lecture 10 - Locks.md",
     "Lecture 12/Lecture 12 - Semaphore.md",
     "Lecture 13/Lecture 13 - Common Concurrency Problems.md",
     "Picture/Pasted image 20240315112052.png",

@@ -11,13 +11,28 @@
             "id": "e448628efa6c131a",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Picture/Pasted image 20240313164615.png"
+                "file": "SAA-C03/2. IAM/2.1 Identity Access Management (IAM).md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bef052c82a76ea57",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SCS-CO2/1. IAM/1.1 Identity and Access Management.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -76,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Picture/Pasted image 20240313164615.png",
+                "file": "SCS-CO2/1. IAM/1.1 Identity and Access Management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Picture/Pasted image 20240313164615.png",
+                "file": "SCS-CO2/1. IAM/1.1 Identity and Access Management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Picture/Pasted image 20240313164615.png"
+                "file": "SCS-CO2/1. IAM/1.1 Identity and Access Management.md"
               }
             }
           },
@@ -165,53 +180,54 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e448628efa6c131a",
+  "active": "bef052c82a76ea57",
   "lastOpenFiles": [
-    "Template Script/Script.md",
-    "Picture/Pasted image 20240313164615.png",
-    "Docker/2. Docker images.md",
-    "Docker/3. Docker Cheatsheet.md",
-    "Docker/1. Container and Docker.md",
-    "Ansible/4. Playbooks in Action.md",
-    "Ansible/3. Ansible Playbook.md",
-    "Ansible/Picture/Untitled",
-    "Ansible/Picture/Pasted image 20240325152856.png",
-    "Ansible/2. Ansible Tasks.md",
-    "Ansible/1. Introduction to Ansible.md",
-    "Ansible/Picture/Pasted image 20240325151317.png",
-    "Ansible/Picture/Pasted image 20240325145715.png",
-    "Ansible/Picture/Pasted image 20240325144756.png",
-    "Ansible/Picture/Pasted image 20240325144406.png",
-    "Ansible/Picture/Pasted image 20240325143707.png",
-    "Ansible/Picture",
-    "Ansible/Picture/Pasted image 20240325142303.png",
-    "Ansible",
-    "SAA-C03/8. Route 53/8.2 R53 Deep Dive.md",
-    "SAA-C03/3. S3/3.8 Optimize S3 Performance.md",
-    "SAA-C03/3. S3/3.3 Static Website on S3.md",
-    "SAA-C03/3. S3/3.2 Object ACLs and Bucket Policies.md",
-    "SAA-C03/3. S3/3.1 S3 Overview.md",
+    "SCS-CO2/1. IAM/1.2 Security Token Service (STS).md",
+    "SAA-C03/2. IAM/2.1 Identity Access Management (IAM).md",
+    "SAA-C03/2. IAM/2.2 IAM Labs.md",
+    "SCS-CO2/1. IAM/1.1 Identity and Access Management.md",
+    "SCS-CO2/Picture/Pasted image 20240813104056.png",
+    "SCS-CO2/Picture/Pasted image 20240319182554.png",
+    "SCS-CO2/Picture/Pasted image 20240314163043.png",
+    "SCS-CO2/Picture/Pasted image 20240313173630.png",
+    "SCS-CO2/Picture/Pasted image 20240313173228.png",
+    "SCS-CO2/Picture/Pasted image 20240313173005.png",
+    "SCS-CO2/Picture/Pasted image 20240313171336.png",
+    "SCS-CO2/Picture/Pasted image 20240313171201.png",
+    "SCS-CO2/Picture/Pasted image 20240313170956.png",
+    "SCS-CO2/Picture/Pasted image 20240313170825.png",
+    "SCS-CO2/Picture",
+    "SCS-CO2/1. IAM/1. IAM.md",
+    "SCS-CO2/1. IAM",
+    "SAA-C03/7. VPC/7.3 VPC Routing and Security.md",
+    "SAA-C03/7. VPC/7.2 VPC Sizing and Structure.md",
+    "SAA-C03/7. VPC/7.1 VPC additional knowledge.md",
+    "SCS-CO2",
+    "Done 101/Key Management Service (KMS) 101.md",
+    "Done 101/S3 101.md",
+    "Done 101/IAM 101.md",
+    "Done 101/AWS Networking 101.md",
+    "SAA-C03/1. AWS Fundamentals/1.0 Cloud Computing Overview.md",
+    "SAA-C03/7. VPC/7.4 VPC endpoint.md",
+    "SAA-C03/7. VPC/7.4 VPC Router Deep Dive.md",
+    "SAA-C03/7. VPC/7.5 Buliding SOlutions across VPCs with Peering.md",
+    "SAA-C03/7. VPC/7.6 Using AWS PrivateLink.md",
     "SAA-C03/4.EC2/4.1 EC2 Overview.md",
+    "SAA-C03/1. AWS Fundamentals/1.1 AWS Global Infrastructure.md",
+    "Information/Elastic Container Service (ECS) 101.md",
+    "Done 101/EC2 101.md",
+    "Done 101/DNS 101.md",
+    "Done 101/AWS Organization 101.md",
     "SAA-C03/4.EC2/4.5 Networking with EC2.md",
-    "SAA-C03/8. Route 53/8.1 What is DNS.md",
-    "Orchesstration Tool/Kubernetes.md",
+    "SAA-C03/4.EC2/4.4 EC2 Metadata and User Data.md",
+    "SAA-C03/4.EC2/4.2 EC2 Pricing Options.md",
+    "Ansible/Picture/Untitled",
+    "Ansible/Picture",
+    "Ansible",
     "Template Script",
     "Orchesstration Tool",
-    "SAA-C03/4.EC2/4.2 EC2 Pricing Options.md",
-    "Done 101/AWS Networking 101.md",
-    "Information/Container 101.md",
-    "Picture/Pasted image 20240319182554.png",
     "Docker",
-    "SAA-C03/7. VPC/7.6 Using AWS PrivateLink.md",
-    "SAA-C03/7. VPC/7.5 Buliding SOlutions across VPCs with Peering.md",
-    "SAA-C03/7. VPC/7.4 VPC endpoint.md",
-    "SAA-C03/6. RDS/6.4 DynamoDB.md",
-    "SAA-C03/7. VPC/7.3 VPC Routing and Security.md",
-    "Picture/Pasted image 20240314163043.png",
     "SAA-C03/8. Route 53",
-    "SAA-C03/7. VPC",
-    "SAA-C03/6. RDS",
-    "SAA-C03/5. EBS and EFS",
     "Untitled.canvas"
   ]
 }
